@@ -1,0 +1,274 @@
+/* insertion d'un fond dégradé à toute la page a partir du site cssgradient.io */
+/* Définition d'une largeur maximum fixe de 1300 pixels, centré + barre de défilement */
+body {
+	background: rgb(110,87,47);
+	background: linear-gradient(90deg, rgba(110,87,47,1) 46%, rgba(84,98,73,1) 100%);
+	background-size: cover;
+	max-width: 1300px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: auto;
+	font-family: "Nunito", sans-serif;
+	}
+header {
+	background-color: #FBEEE6;
+	padding: 20px 50px;
+	border-radius: 15px;
+	box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.9);
+	margin-left: 1%;
+	margin-right: 1%;
+	}
+a {
+	color: #996849;
+	font-family: 'Nunito', sans-serif;
+	font-size: 2em;
+	text-align: center;
+	text-shadow: 4px 4px 15px rgba(0, 0, 0, 0.9);
+	text-decoration: none;
+	}
+footer {
+	background-color: #FBEEE6;
+	padding: 20px 50px;
+	border-radius: 15px;
+	box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.9);
+	margin-left: 1%;
+	margin-right: 1%;
+	Text-align: center;
+	}
+/* Choix de la police Nunito sur google fonts et de la couleur sur htmlcolorcodes.com */
+/* Marges internes + taille de 60% + arrondi + ombre */
+h1 { 
+	color: #996849;
+	background-color: #FBEEE6;
+	font-family: 'Nunito', sans-serif;
+	font-size: 2.5em;
+	padding: 25px 20px 25px 20px;
+	text-align: center;
+	width: 60%;
+	min-width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 15px;
+	box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.9);
+	text-shadow: 4px 4px 15px rgba(94, 86, 73, 0.9);
+	}
+/* Choix de la police Nunito sur google fonts et de la couleur sur htmlcolorcodes.com */
+/* Texte centré + ombre */
+h2 {
+	color: #EDBB99 ;
+	font-family: 'Nunito', sans-serif;
+	text-align: center;
+	text-shadow: 4px 4px 15px rgba(0, 0, 0, 0.9);
+	margin: 15px;
+	}
+/* Choix de la police Nunito sur google fonts et de la couleur sur htmlcolorcodes.com */
+/* texte justifié + marges de 2% */
+p { 
+	color: #FBEEE6;
+	font-family: 'Nunito', sans-serif;
+	font-size: 1.3em;
+	text-align: justify;
+	margin-left: 2%;
+	margin-right: 2%;
+	}
+/* Choix de la police Nunito sur google fonts et de la couleur sur htmlcolorcodes.com */
+ul {color: #FBEEE6;
+	font-family: 'Nunito', sans-serif;
+	font-size: 1.3em;
+	}
+/* choix de la police Nunito */
+
+/* Création d'un container pour les images seules + centrage */
+#imageunique {
+	align-items: center;
+	}
+nav {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	row-gap: 15px;
+	}
+.logo {
+	margin-left: 15px;
+	}
+.logo img {
+	border-radius: 7px;
+	}
+.fin {
+	color: #996849;
+	font-family: 'Nunito', sans-serif;
+	font-size: 1em;
+	text-align: center;
+	text-shadow: 4px 4px 15px rgba(0, 0, 0, 0.9);
+	}
+/* insertion et centrage des 4 images isolées: class=photo */
+.photo { 
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	width: 380px;
+	}
+/* insertion d'un flex par rubrique (eau, outils, hygiène, objets et camping) + centrage */
+/* Mise à la ligne automatique avec wrap + @media plus loin */
+.eau {
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+	align-items: center;
+	row-gap: 15px;
+	}
+/* L'image doit prendre 100% du contenair */
+.eau img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	}	
+.outils {
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+	align-items: center;
+	row-gap: 15px;
+	}
+.outils img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	}
+.hygiene {
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+	align-items: center;
+	row-gap: 15px;
+	}
+.hygiene img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	}
+.objets {
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+	align-items: center;
+	row-gap: 15px;
+	}
+.objets img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	}
+.camping {
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+	align-items: center;
+	row-gap: 15px;
+	}
+.camping img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	}
+/* Définition des marges des contenair d'images (box) */
+.box1 {
+	margin: auto;
+	}
+.box2 {
+	margin: auto;
+	}
+.box3 {
+	margin: auto;
+	}
+.box4 {
+	margin: auto;
+	}
+.box5 {
+	margin: auto;
+	}
+.box6 {
+	margin: auto;
+	}
+.box7 {
+	margin: auto;
+	}
+.box8 {
+	margin: auto;
+	}
+.box9 {
+	margin: auto;
+	}
+/* Création d'un cadre pour imposer une taille fixe aux images */
+/* L'image est étirée (fill) dans tout l'élément */
+#cadre {
+	width: 380px;
+	height: 285px;
+	object-fit: fill;
+	border-radius: 15px;
+	box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.9);
+	}
+/* Création d'un système pour centrer correctement les listes */
+.liste {
+  text-align:center;
+  margin-left: 2%;
+  margin-right: 2%;
+	}
+.liste ul {
+  display:inline-block; 
+	}
+.liste ul li {
+  text-align:left;
+	}
+/* Création d'une ligne de séparation entre les paragraphes + mise en forme */
+hr {
+  border: 6px solid #EDBB99;
+  border-radius: 5px;
+  margin: 50px;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.9);
+	}
+.logo:hover {
+  opacity: 0.5;
+}
+a:hover {
+	opacity: 0.5;
+}
+.liens {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* Mise en place d'un média query pour adapter la taille des flex aux différents écrans */
+@media screen and (max-width: 420px) 
+{
+
+	h1 {
+		min-width: 250px;
+		width: 50%;
+		font-size: 2em;
+		padding: 15px 15px 15px 15px;
+	}
+.banniere {
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+.logo {
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.eau, .outils, .hygiene, .objets, .camping {
+	flex-direction: column;
+	gap: 15px;
+	}
+
+#cadre {
+	width: 280px;
+	height: 200px;
+}
+}
