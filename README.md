@@ -23,4 +23,4 @@ Merci OpenClassrooms !
 
 ---------------
 
-![image](miniatures/sac_a_dos.png){ style="display": block; margin: 0 auto" }
+![image](miniatures/sac_a_dos.png){ style="display: block; margin: 0 auto" }
