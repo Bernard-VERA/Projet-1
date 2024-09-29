@@ -23,4 +23,7 @@ Merci OpenClassrooms !
 
 ---------------
 
-![image](miniatures/sac_a_dos.png){ style="display: block; margin: 0 auto" }
+<p align="center" width="100%">
+    <img width="50%" src="https://github.com/Bernard-VERA/Projet-1/miniatures/sac_a_dos.png"> 
+</p>
+
