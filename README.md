@@ -19,5 +19,8 @@ Je n'ai donc pu mettre ce site sur GitHub qu'après la fin de la formation.
 
 L'évolution est flagrante. Il n'y à qu'a comparer le projet 1 et le projet 6.  
   
-Merci OpenClassrooms !  
+Merci OpenClassrooms !
 
+---------------
+
+![image](miniatures/sac_a_dos.png)
