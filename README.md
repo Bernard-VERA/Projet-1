@@ -19,7 +19,10 @@ Je n'ai donc pu mettre ce site sur GitHub qu'après la fin de la formation.
 
 L'évolution est flagrante. Il n'y à qu'a comparer le projet 1 et le projet 6.  
   
-Merci OpenClassrooms !
+Merci OpenClassrooms !  
+<br/>
+Vous pouvez voir le projet en cliquant ici : <a href="https://bernard-vera.github.io/Projet-1/" target="_blank">Le sac d'évacuation</a>  
+
 
 ---------------
 
